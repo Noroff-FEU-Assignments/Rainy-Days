@@ -12,12 +12,21 @@ Grey: #AAA6A6
 /* Front page */
 * {
     font-family: 'Montserrat', sans-serif;   
+    font-weight: 100;
 }
 body {
     background-image: url(/images/couple-trekking-through-rain-highlands\ \(1\).jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
+    display: flex;
+    justify-content: space-between;
 
+}
+
+header {
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 
 main {
@@ -25,9 +34,19 @@ background: rgb(9,43,52);
 background: linear-gradient(27deg, rgba(9,43,52,1) 38%, rgba(17,86,103,0.6362920168067228) 100%);
 flex-direction: column;
 color: #F9F9F9;
+float: right;
+width: 60%;
+text-align: center;
+
 }
 main h1 {
-    font-family: 'Quicksand', sans-serif;    
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4rem;    
+}
+
+main h2 {
+    color: #AAA6A6;
+    font-size: 1rem;
 }
 
 .index-button {
@@ -36,8 +55,4 @@ main h1 {
     text-decoration: none;
     color: #F9F9F9;
     box-shadow: 4px 2px 15px -6px rgba(0,0,0,0.93);
-}
-
-.index-button a {
-
 }
