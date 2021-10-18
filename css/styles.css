@@ -5,11 +5,39 @@ Light Green: #115667
 Dark Green:  #0A3641
 "White": #F9F9F9
 Grey: #AAA6A6
-
-
 */
 
+
+
 /* Front page */
+* {
+    font-family: 'Montserrat', sans-serif;   
+}
 body {
     background-image: url(/images/couple-trekking-through-rain-highlands\ \(1\).jpg);
+    background-size: cover;
+    margin: 0;
+
+}
+
+main {
+background: rgb(9,43,52);
+background: linear-gradient(27deg, rgba(9,43,52,1) 38%, rgba(17,86,103,0.6362920168067228) 100%);
+flex-direction: column;
+color: #F9F9F9;
+}
+main h1 {
+    font-family: 'Quicksand', sans-serif;    
+}
+
+.index-button {
+    padding: 10px;
+    background-color: #115667;
+    text-decoration: none;
+    color: #F9F9F9;
+    box-shadow: 4px 2px 15px -6px rgba(0,0,0,0.93);
+}
+
+.index-button a {
+
 }
