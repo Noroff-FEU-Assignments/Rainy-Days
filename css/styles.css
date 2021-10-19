@@ -23,9 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-position: bottom;
-    
-    
-
+    display: flex;
 }
 
 header {
@@ -42,14 +40,24 @@ float: right;
 width: 60%;
 text-align: center;
 height: 100vh;
+clip-path: polygon(200px 0, 100% 0, 100% 100%, 0 100%);
+display: flex
+
 
 
 }
-
-.nav-icons{
-    color: #F9F9F9;
-    font-size: 2rem;
+.navbar {
+    align-self: flex-end;
+    margin-right: 1rem;
 }
+    
+
+.nav-icons img{
+    width: 40px;
+    margin-top: 1rem;
+}
+
+
 main h1 {
     font-family: 'Quicksand', sans-serif;
     font-size: 4rem;    
@@ -80,8 +88,3 @@ main h2 {
 
 /* Front page mobile */
 
-@media only screen and (max-width: 414px) {
-    main {
-        background-color: black;
-    }
-}
