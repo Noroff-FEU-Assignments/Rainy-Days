@@ -18,6 +18,7 @@ body {
     background-image: url(/images/couple-trekking-through-rain-highlands\ \(1\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom left;
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -68,4 +69,12 @@ main h2 {
     box-shadow: 4px 2px 10px -10px rgba(0,0,0,0.93);
     margin: 1rem;
     border-radius: 2px;
+}
+
+/* Front page mobile */
+
+@media only screen and (max-width: 414px) {
+    main {
+        background-color: black;
+    }
 }
