@@ -22,6 +22,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: space-between;
+    background-position: bottom;
     
     
 
@@ -40,9 +41,14 @@ color: #F9F9F9;
 float: right;
 width: 60%;
 text-align: center;
-height: 1000px;
+height: 100vh;
 
 
+}
+
+.nav-icons{
+    color: #F9F9F9;
+    font-size: 2rem;
 }
 main h1 {
     font-family: 'Quicksand', sans-serif;
@@ -53,6 +59,7 @@ main h2 {
     color: #AAA6A6;
     font-size: 1rem;
 }
+
 
 #index-button-container {
     margin-top: 2rem;
