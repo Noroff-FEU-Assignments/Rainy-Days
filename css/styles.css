@@ -90,6 +90,9 @@ main h2 {
   font-size: 1rem;
   font-weight: 600;
 }
+.nav-icons-dark {
+    display: none;
+}
 
 
 /* FIRST BREAKPOINT AT 1250 */
@@ -106,6 +109,10 @@ main h2 {
     main h2 {
         color: #f3f3f3;
     }
+
+    .nav-icons-dark {
+        display: none;
+    }
 }
 
 
@@ -120,22 +127,30 @@ main h2 {
         margin-right: 30px;
     }
     main h1 {
-        font-size: 3rem;
+        font-size: 2.9rem;
     }
     main h2 {
         font-size: 0.9rem;
+    }
+    .nav-icons-dark {
+        display: none;
     }
   
     
 }
 
-/* THIRD BREAK AT 910 */
-@media screen and (max-width: 910px){
-    
+/* THIRD BREAK AT 920 */
+@media screen and (max-width: 920px){
+
+    #header-text {
+        display: none;
+    } 
 
 }
-/* FOURTH BREAK AT 739 */
-@media screen and (max-width: 739px) {
+
+
+/* Mobile small screen (Break at 520)*/
+@media screen and (max-width: 520px) {
     body {
         background-image: url(/images/couple-trekking-through-rain-highlands\ \(1\)\ copy.jpg);
         background-size: 120%;
@@ -148,7 +163,12 @@ main h2 {
         justify-content: space-between;
     }
     #rainy-days-logo {
-        width: 40%;
+        height: 40px;
+    }
+    .nav-icons-dark {
+        width: 35px;
+        margin-right: 1rem  ;
+
     }
     #header-text {
         display: none;
@@ -169,10 +189,12 @@ main h2 {
         margin-top: 100px;
     }
 
+
     .main-content {
         margin: 0 auto;
     }
 }
+
 
 
 
