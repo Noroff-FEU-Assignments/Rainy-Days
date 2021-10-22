@@ -1,0 +1,88 @@
+/* Front page mobile */
+@media screen and (max-width: 400px) {
+    body {
+        background-image: url(/images/couple-trekking-through-rain-highlands\ \(1\)\ copy.jpg);
+        background-size: 150%;
+        background-position: top;
+    }
+    #rainy-days-logo {
+        width: 150px;
+    }
+
+}
+/* Front page tablets */
+
+@media screen and (max-width: 950px) {
+    h1, h2 {
+        display: none;
+    }
+
+    body {
+    background-size: 200%;
+    }
+
+    .nav-icons {
+        display: none;
+    }
+    .index-button {
+        display: revert;
+        margin-top: 160px;
+    }
+
+
+}
+/* Front page smaller screens*/
+@media screen and (max-width: 1200px) {
+    .nav-icons-dark {
+      display: none;
+    }
+    header img {
+      width: 190px;
+    }
+  
+    main {
+      background: none;
+      clip-path: none;
+    }
+  
+    main h1 {
+      font-size: 3.5rem;
+    }
+  
+    .main-content {
+      margin-left: 100px;
+    }
+  
+    .nav-icons img {
+      width: 30px;
+    }
+  
+    .index-button {
+      display: none;
+    }
+  
+    .main-content {
+      margin-top: 100px;
+    }
+  }
+/* Front page small screen */
+
+@media screen and (max-width: 1700px) {
+    .nav-icons-dark {
+      display: none;
+    }
+    main h1 {
+      font-size: 3.7rem;
+    }
+  
+    main h2 {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Front page smaller screens*/
+  @media screen and (max-width: 1200px) {
+  
+  }
+  
+    
