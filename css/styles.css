@@ -90,16 +90,20 @@ main h2 {
   font-size: 1rem;
   font-weight: 600;
 }
-.nav-icons-dark {
-    display: none;
-}
 
 
 /* FIRST BREAKPOINT AT 1250 */
 
 @media screen and (max-width: 1250px) {
     
-   
+    .nav-icons-dark img {
+        width: 40px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+    }
+    body {
+        flex-direction: row;
+    }
     
     main {
         background: none;
@@ -110,9 +114,7 @@ main h2 {
         color: #f3f3f3;
     }
 
-    .nav-icons-dark {
-        display: none;
-    }
+    
 }
 
 
@@ -132,9 +134,7 @@ main h2 {
     main h2 {
         font-size: 0.9rem;
     }
-    .nav-icons-dark {
-        display: none;
-    }
+    
   
     
 }
@@ -168,7 +168,6 @@ main h2 {
     .nav-icons-dark {
         width: 35px;
         margin-right: 1rem  ;
-
     }
     #header-text {
         display: none;
