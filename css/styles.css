@@ -35,6 +35,10 @@ header {
   height: 40px;
 }
 
+#index-button-container-mobile {
+  display: none;
+}
+
 main {
   display: flex;
   flex-direction: row;
@@ -191,29 +195,41 @@ main h2 {
   background-size: 170%;
 }
 
-main {
-
-  justify-content: center;
-
-}
-
 #main-content-wrapper {
-  align-items: flex-start;
-  margin-top: 10%;
+  justify-content: center;
 }
-
-#main-content {
-  margin-right: 0;
+#main-content h1{
+  font-size: 3rem;
   
 }
 
-#header-text {
-  display: none;
-}
-
 #index-button-container {
-  display: flex;
-  justify-content: space-between;
+ flex-direction: column;
+ align-items: center;
+ 
+ 
 }
 }
 
+/* 840 */
+
+@media screen and (max-width: 840px) {
+
+  body {
+    background-size: 320%;
+  }
+  #header-text {
+    display: none;
+  }
+  main {
+    justify-content: center;
+  }
+  #main-content-wrapper {
+    align-items: flex-start;
+    margin-top: 20%;
+  }
+  #main-content {
+    margin: 0;
+  }
+  
+}
