@@ -7,58 +7,72 @@ Dark Green:  #0A3641
 Grey: #AAA6A6
 */
 
-
-
 /* Front page */
 * {
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
+  box-sizing: border-box;
 }
 body {
   background: url(/images/bacground-image.jpg) no-repeat center center fixed;
   background-size: 140%;
   margin: 0;
-  justify-content: space-between;
-  background-position: bottom;
   display: flex;
+  justify-content: space-between;
   overflow: hidden;
 }
 
 header {
-  margin-left: 1rem;
-  margin-top: 1rem;
+  padding: 1rem;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100vw;
+  z-index: 1;
+}
+#rainy-days-logo {
+  height: 40px;
 }
 
 main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: #f9f9f9;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+#main-content {
+  margin-right: 10%;
+}
+
+#main-content-wrapper {
   background: linear-gradient(
     27deg,
     rgba(9, 43, 52, 1) 20%,
     rgba(17, 86, 103, 0.6362920168067228) 80%
   );
-  flex-direction: column;
-  color: #f9f9f9;
-  float: right;
-  width: 55%;
-  text-align: center;
-  height: 100vh;
   clip-path: polygon(200px 0, 100% 0, 100% 100%, 0 100%);
+  height: 100vh;
+  width: 55%;
   display: flex;
-}
-.navbar {
-  align-self: flex-end;
-  margin-right: 1rem;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.nav-icons img {
+.nav-icons-white img {
   width: 40px;
   margin-top: 1rem;
   margin-left: 1rem;
 }
-
-.main-content {
-  margin-top: 200px;
-  margin-left: 100px;
+#dark-icons {
+  display: none;
 }
+
+
 
 main h1 {
   font-family: "Quicksand", sans-serif;
@@ -92,111 +106,114 @@ main h2 {
 }
 
 
-/* FIRST BREAKPOINT AT 1250 */
+/* 1450 */
 
-@media screen and (max-width: 1250px) {
-    
-
-    
-    .nav-icons-dark img {
-        width: 40px;
-  margin-top: 1rem;
-  margin-left: 1rem;
-    }
-    body {
-        flex-direction: row;
-    }
-    
-    main {
-        background: none;
-        clip-path: none;
-    }
-
-    main h2 {
-        color: #f3f3f3;
-    }
-
-    
+@media screen and (max-width: 1450px) {
+  main h1 {
+    font-size: 3.5rem;
+  }
 }
 
+/* 1400 */
 
-/* SECOND BREAK AT 1040 */
-@media screen and (max-width: 1040px) {
-    
-    body {
-        background-size: 200%;
-    }
-
-    main { 
-        margin-right: 30px;
-    }
-    main h1 {
-        font-size: 2.9rem;
-    }
-    main h2 {
-        font-size: 0.9rem;
-    }
-    
+@media screen and (max-width: 1400px) {
+  #main-content {
+    margin-right: 7%;
+  }
   
-    
 }
 
-/* THIRD BREAK AT 920 */
-@media screen and (max-width: 920px){
+/* 1300 */
+@media screen and (max-width: 1300px) {
+  main h1 {
+    font-size: 3rem;
+  }
+  main h2 {
+    font-size: 0.9rem;
+  }
 
-    #header-text {
-        display: none;
-    } 
-
+  .index-button {
+    font-size: 0.9rem;
+  }
 }
 
+/* 1270 */
 
-/* Mobile small screen (Break at 520)*/
-@media screen and (max-width: 520px) {
-    body {
-        background-image: url(/images/couple-trekking-through-rain-highlands\ \(1\)\ copy.jpg);
-        background-size: 120%;
-        background-position: top left;
-        flex-direction: column;
-        justify-content: center;
-    }
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
-    #rainy-days-logo {
-        height: 40px;
-    }
-    .nav-icons-dark {
-        width: 35px;
-        margin-right: 1rem  ;
-    }
-    #header-text {
-        display: none;
-    }
+@media screen and (max-width: 1275px) {
 
-    main {
-        width: 100vw;
-    }
-
-    .nav-icons {
-        display: none;
-    }
-
-    
-
-    #index-button-container {
-        flex-direction: column;
-        margin-top: 100px;
-    }
-
-
-    .main-content {
-        margin: 0 auto;
-    }
+  #main-content {
+    margin-right: 5%;
+  }
+  
 }
 
 
+/* 1180 */
+@media screen and (max-width: 1220px) {
+  #main-content {
+    margin-right: 3%;
+  }
+  
+}
 
 
+/* 1170 */
+
+@media screen and (max-width: 1170px) {
+
+#main-content {
+  margin-right: 10%;
+}
+
+  #main-content-wrapper {
+  background: none;
+  clip-path: none;
+  }
+  #white-icons {
+    display: none;
+  }
+  #dark-icons {
+    display: revert;
+  }
+  main h2 {
+    color: #f3f3f3;
+  }
+  
+  .index-button {
+    background-color: #0a3641;
+  }
+}
+
+/* 1020 */
+@media screen and (max-width: 1020px) {
+  
+  body {
+  background-size: 170%;
+}
+
+main {
+
+  justify-content: center;
+
+}
+
+#main-content-wrapper {
+  align-items: flex-start;
+  margin-top: 10%;
+}
+
+#main-content {
+  margin-right: 0;
+  
+}
+
+#header-text {
+  display: none;
+}
+
+#index-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+}
 
