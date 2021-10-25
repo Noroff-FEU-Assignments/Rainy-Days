@@ -320,12 +320,44 @@
 
   /* ------- ABOUT US PAGE ------- */
 
+  #contact-body {
+    overflow: visible;
+  }
+
   #about-main-content-wrapper {
     background-color: #115667;
     box-shadow: 6px 4px 23px -4px rgba(0,0,0,0.55);
-    width: 60vw;
+    width: 70vw;
     margin: 0 auto;
     margin-top: 40px;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
     
+  }
+
+  .about-us-card {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+  }
+
+  .about-us-card-reverse img {
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+
+
+  .about-us-card p {
+    height: 199px;
+    margin: 0;
+    font-size: 1.2vw;
+    color: #E1E1E1;
+  }
+  .about-us-card img {
+    height: 20vw;
+    margin-left: 30px;
+
   }
