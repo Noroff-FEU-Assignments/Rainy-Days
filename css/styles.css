@@ -50,6 +50,8 @@ display: flex
 =======
 
 
+
+
 main h1 {
   font-family: "Quicksand", sans-serif;
   font-size: 4rem;
@@ -80,11 +82,14 @@ main h1 {
     margin-bottom: 0;   
 }
 
+<<<<<<< HEAD
 main h2 {
     color: #AAA6A6;
     font-size: 1.1rem;
     
 =======
+=======
+>>>>>>> parent of 664ed1f (update prettier)
 
 /* 1450 */
 
@@ -101,6 +106,9 @@ main h2 {
     margin-right: 7%;
   }
   
+<<<<<<< HEAD
+>>>>>>> parent of 664ed1f (update prettier)
+=======
 >>>>>>> parent of 664ed1f (update prettier)
 }
 
@@ -228,6 +236,9 @@ main {
     margin: 0;
   }
   
+<<<<<<< HEAD
+>>>>>>> parent of 664ed1f (update prettier)
+=======
 >>>>>>> parent of 664ed1f (update prettier)
 }
 }
