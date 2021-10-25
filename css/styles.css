@@ -7,7 +7,7 @@ Dark Green:  #0A3641
 Grey: #AAA6A6
 */
 
-
+/* 
 
 /* Front page */
 * {
@@ -101,4 +101,12 @@ main h2 {
 
 
 /* Front page mobile */
+@media screen and (max-width: 375px) {
+body {
+    background-position: bottom left;
+}
 
+main {
+    background-color: #F9F9F9;
+}
+}
