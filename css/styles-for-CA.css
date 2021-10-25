@@ -1,0 +1,145 @@
+ /* ------------------------------------ CONTACT US PAGE ------------------------------------ */
+ * {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    box-sizing: border-box;
+  }
+
+
+ #contact-body {
+    background-color: #efefef;
+    background-image: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  #contact-main-content h3 {
+    font-size: 0.5rem;
+  }
+  #upper-nav-bar {
+    background-color: #0a3641;
+    color: #f3f3f3;
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+  }
+
+  #upper-nav-bar img {
+    margin-right: 10px;
+    height: 50%;
+  }
+
+  #upper-nav-bar p {
+    margin: 10px;
+    font-size: 0.7rem;
+  }
+
+  #upper-nav-bar i {
+    margin-right: 13px;
+  }
+
+  #main-nav-bar {
+    background-color: #115667;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #rainy-days-logo-grey{
+    width: 15%;
+    height: 40%;
+    margin-left: 1rem;
+  }
+
+  #nav-bar-links li{
+    display: inline-block;
+    
+  }
+  #nav-bar-links a {
+    text-decoration: none;
+    color: #efefef;
+    padding: 10px;
+  }
+
+  .nav-bar-btn {
+    padding: 15px;
+    
+  }
+
+  .nav-bar-btn a:hover {
+    border-bottom: 4px solid #AC7B2C;
+  }
+
+  .fa-shopping-cart {
+    font-size: 1.9rem;
+    color: #efefef;
+    margin-right: 1%;
+  }
+
+  
+  #contact-main-content-wrapper {
+    background-color: #115667;
+    box-shadow: 6px 4px 23px -4px rgba(0,0,0,0.55);
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 50px;
+  }
+
+  #contact-main-content {
+    color: #efefef;
+    padding: 20px;
+  }
+
+  #contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ------- ABOUT US PAGE ------- */
+
+  #contact-body {
+    overflow: visible;
+  }
+
+  #about-main-content-wrapper {
+    background-color: #115667;
+    box-shadow: 6px 4px 23px -4px rgba(0,0,0,0.55);
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+  }
+
+  .about-us-card {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+  }
+
+  .about-us-card-reverse img {
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+
+
+  .about-us-card p {
+    height: 199px;
+    margin: 0;
+    font-size: 1.2vw;
+    color: #E1E1E1;
+  }
+  .about-us-card img {
+    height: 20vw;
+    margin-left: 30px;
+
+  }
