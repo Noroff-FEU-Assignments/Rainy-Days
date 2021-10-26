@@ -37,8 +37,14 @@ header {
   height: 40px;
 }
 
-#index-button-container-mobile {
-  display: none;
+#menu-right {
+  display: flex;
+}
+#menu-right a {
+  margin-right: 30px;
+  color: #f3f3f3;
+  font-size: 1.5rem;
+  text-decoration: none;
 }
 
 #index-main {
@@ -49,8 +55,6 @@ header {
   height: 100vh;
   text-align: center;
 }
-
-
 
 #main-content-wrapper {
   background: linear-gradient(
@@ -69,29 +73,6 @@ header {
   margin-right: 10%;
 }
 
-#main-content-wrapper.open {
-  width: 75%;
-}
-
-#main-content-wrapper.open #menu-content {
-  display: flex;
-}
-
-#menu-content {
-  justify-content: space-around;
-  align-items: center;
-}
-#menu-content ul {
-  list-style-type: none;
-}
-
-#main-content-wrapper #menu-content {
-  display: none;
-}
-
-#main-content-wrapper.open #main-content {
-  display: none;
-}
 
 .nav-icons-white img {
   width: 30px;
