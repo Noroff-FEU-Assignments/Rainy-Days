@@ -217,3 +217,28 @@ margin: 100px;
   display: flex;
   justify-content: space-between;
 }
+
+
+/* PRODUCT PAGE */
+
+#main-product {
+  display: flex;
+  justify-content: space-evenly;
+}
+#product-images {
+  margin-right: 100px;
+}
+
+#product-description {
+  display: flex;
+  flex-direction: column;
+}
+#small-product-photos {
+  display: flex;
+}
+
+/* ORDER COMPLETE */
+
+#order-complete-main {
+  
+}
