@@ -241,7 +241,7 @@ margin: 100px;
 
 #order-complete-body {
   background-image: url(/images/order-complete-background.png);
-  margin: 0;
+  background-position: center;
 }
 
 
