@@ -261,6 +261,8 @@ z-index: 1;
 #thank-you-card-content {
   padding-top: 8px;
   padding-bottom: 50px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
 }
 #thank-you-card-content h1 {
   font-size: 4rem;
