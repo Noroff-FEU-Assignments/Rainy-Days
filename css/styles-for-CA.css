@@ -11,19 +11,6 @@
     background-color: #e2e2e2;
   }
 
-  #contact-form {
-    width: 40%;
-  }
-  #contact-form input {
-    margin-bottom: 20px;
-    height: 40px;
-    border-radius: 2px;
-    border: none;
-  }
-
-  textarea {
-    margin-bottom: 20px;
-  }
 
  #contact-body {
     background-color: #efefef;
