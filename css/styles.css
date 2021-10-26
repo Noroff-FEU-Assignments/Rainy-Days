@@ -50,9 +50,7 @@ header {
   text-align: center;
 }
 
-#main-content {
-  margin-right: 10%;
-}
+
 
 #main-content-wrapper {
   background: linear-gradient(
@@ -66,6 +64,33 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+#main-content {
+  margin-right: 10%;
+}
+
+#main-content-wrapper.open {
+  width: 75%;
+}
+
+#main-content-wrapper.open #menu-content {
+  display: flex;
+}
+
+#menu-content {
+  justify-content: space-around;
+  align-items: center;
+}
+#menu-content ul {
+  list-style-type: none;
+}
+
+#main-content-wrapper #menu-content {
+  display: none;
+}
+
+#main-content-wrapper.open #main-content {
+  display: none;
 }
 
 .nav-icons-white img {
