@@ -47,6 +47,10 @@ header {
   text-decoration: none;
 }
 
+#menu-right .nav-bar-btn {
+  font-size: 1.5vw;
+}
+
 #index-main {
   display: flex;
   justify-content: flex-end;
@@ -69,6 +73,7 @@ header {
   justify-content: flex-end;
   align-items: center;
 }
+
 #main-content {
   margin-right: 10%;
 }
@@ -180,6 +185,13 @@ header {
     width: 30px;
     margin-right: 10px;
   }
+
+  #menu-right a {
+    margin-right: 0;
+  }
+  #menu-right .nav-bar-btn {
+    display: none;
+  }
   #index-main h2 {
     color: #f3f3f3;
   }
@@ -220,6 +232,12 @@ header {
   }
   #index-main {
     justify-content: center;
+  }
+  #menu-right .nav-bar-btn {
+    display: none;
+  }
+  #menu-right a {
+    margin-right: 0;
   }
   #main-content-wrapper {
     align-items: flex-start;
