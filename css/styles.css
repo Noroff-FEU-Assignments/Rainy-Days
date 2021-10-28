@@ -39,16 +39,20 @@ header {
 
 #menu-right {
   display: flex;
+  margin-right: 0;
 }
 #menu-right a {
-  margin-right: 30px;
-  color: #f3f3f3;
+  
+  color: #f9f9f9;
   font-size: 1.5rem;
   text-decoration: none;
+  
 }
 
+
 #menu-right .nav-bar-btn {
-  font-size: 1.5vw;
+  font-size: 1.1rem;
+margin-right: 30px;
 }
 
 #index-main {
@@ -116,6 +120,13 @@ header {
   width: 220px;
   font-size: 1rem;
   font-weight: 600;
+  transition: 0.3s;
+}
+
+.index-button:hover {
+  background-color: #F9F9F9;
+  color: #0A3641;
+  
 }
 
 /* 1450 */
@@ -187,11 +198,9 @@ header {
   }
 
   #menu-right a {
-    margin-right: 0;
+    color: #0A3641;
   }
-  #menu-right .nav-bar-btn {
-    display: none;
-  }
+  
   #index-main h2 {
     color: #f3f3f3;
   }
@@ -224,8 +233,8 @@ header {
 
 @media screen and (max-width: 840px) {
   #index-body {
-    background-size: 320%;
-    background-position: top;
+    background-size: 300%;
+    background-position: center;
   }
   #header-text {
     display: none;

@@ -1,6 +1,6 @@
- /* NAVIGATION BAR */
+/* NAVIGATION BAR */
 
- #upper-nav-bar {
+#upper-nav-bar {
   background-color: #0a3641;
   color: #f3f3f3;
   display: flex;
@@ -22,7 +22,6 @@
   margin-right: 13px;
 }
 
-
 #main-nav-bar {
   background-color: #115667;
   display: flex;
@@ -31,7 +30,7 @@
   height: 80px;
 }
 
-#rainy-days-logo-grey{
+#rainy-days-logo-grey {
   width: 10rem;
   height: auto;
   margin-left: 1rem;
@@ -41,9 +40,8 @@
   display: none;
 }
 
-#nav-bar-links li{
+#nav-bar-links li {
   display: inline-block;
-  
 }
 #nav-bar-links a {
   text-decoration: none;
@@ -53,146 +51,175 @@
 
 .nav-bar-btn {
   padding: 15px;
-  
 }
 
 .nav-bar-btn a:hover {
-  border-bottom: 4px solid #AC7B2C;
+  border-bottom: 4px solid #ac7b2c;
 }
 
-.nav-bar-icon img{
+.nav-bar-icon img {
   height: 20px;
   margin-right: 20px;
 }
 
- 
- 
- /* ------------------------------------ CONTACT US PAGE ------------------------------------ */
- * {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 100;
-    box-sizing: border-box;
-    
-  }
+/* ------------------------------------ CONTACT US PAGE ------------------------------------ */
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  box-sizing: border-box;
+}
 
-  body {
-    margin: 0;
-    background-color: #e2e2e2;
-  }
+body {
+  margin: 0;
+  background-color: #e2e2e2;
+}
 
+#contact-body {
+  background-color: #efefef;
+  background-image: none;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0;
+}
 
- #contact-body {
-    background-color: #efefef;
-    background-image: none;
-    overflow: hidden;
-    box-sizing: border-box;
-    margin: 0;
-  }
+#contact-main-content h3 {
+  font-size: 0.5rem;
+}
 
-  #contact-main-content h3 {
-    font-size: 0.5rem;
-  }
-  
+#contact-main-content-wrapper {
+  background-color: #115667;
+  box-shadow: 6px 4px 23px -4px rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 50px;
+}
 
-  
-  #contact-main-content-wrapper {
-    background-color: #115667;
-    box-shadow: 6px 4px 23px -4px rgba(0,0,0,0.55);
-    display: flex;
-    justify-content: space-evenly;
-    width: 80vw;
-    height: 100vh;
-    margin: 0 auto;
-    margin-top: 40px;
-    padding: 50px;
-  }
+#contact-main-content {
+  color: #efefef;
+  padding: 20px;
+}
 
-  #contact-main-content {
-    color: #efefef;
-    padding: 20px;
-  }
-
-  #contact-form form {
-    display: flex;
-    flex-direction: column;
-  }
-
-  /* ------- ABOUT US PAGE ------- */
-
-  #contact-body {
-    overflow: visible;
-  }
-
-  #about-main-content-wrapper {
-    background-color: #115667;
-    box-shadow: 6px 4px 23px -4px rgba(0,0,0,0.55);
-    width: 70vw;
-    margin: 0 auto;
-    margin-top: 40px;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    
-  }
-
-  .about-us-card {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 50px;
-    
-  }
-
-  .about-us-card-reverse img {
-    margin-right: 10px;
-    margin-left: 20px;
-  }
-
-
-  .about-us-card p {
-    height: 199px;
-    margin: 0;
-    font-size: 1.2vw;
-    color: #E1E1E1;
-  }
-  .about-us-card img {
-    height: 20vw;
-    margin-left: 30px;
-
-  }
-
-  /* CHECKOUT PAGE */
-
-  #checkout-main {
-    display: flex;
-    justify-content: space-between;
-    padding: 100px;
-  }
-
-  #payment-info {
-    width: 40%;
-    margin-right: 100px;
-    background-color: #f9f9f9;
-    padding: 100px;
-    
-  }
-
-  #payment-info-input {
-    display: flex;
-    flex-direction: column;
-  
-  }
-
-
-  #place-order {
-    background-color: #0a3641;
-    color: #f9f9f9;
-    padding: 20px;
-  }
-#order-overview {
-  width: 60%;
+#contact-form form {
   display: flex;
   flex-direction: column;
+}
+
+/* ------- ABOUT US PAGE ------- */
+
+#contact-body {
+  overflow: visible;
+}
+
+#about-main-content-wrapper {
+  width: 100vw;
+  margin-top: 20px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  background-color: #115667;
+  padding: 20px;
+}
+.about-us-card h2,
+h3 {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  color: #f9f9f9;
+}
+
+.about-us-card h2 {
+  border-bottom: 1px solid #aaa6a6;
+}
+
+.about-us-card h3 {
+  font-size: 1rem;
+  color: #aaa6a6;
+}
+
+.about-us-card p {
+  width: 70vw;
+  margin: 0;
+  font-size: 0.8rem;
+  color: #e1e1e1;
+}
+.about-us-card img {
+  width: 70vw;
+}
+
+/* CHECKOUT PAGE */
+
+#checkout-main {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+#payment-info {
+  width: 90%;
+  background-color: #f9f9f9;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+#payment-info input{
+  width: 90%;
+  height: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#date-and-cvv2 {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+#date-month-wrapper {
+  display: flex;
+  
+}
+
+#date-picker, #month-picker{
+  margin-right: 8px;
+  height: 50px;
+}
+
+#order-btn {
+  background-color: #0a3641;
+  color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+#order-overview {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+#order-overview h3 {
+  color: #0a3641;
+}
+
+#order-overview h4 {
+  color: #115667;
+  font-size: 0.7rem;
 }
 
 #order-line {
@@ -203,13 +230,16 @@
   border-bottom: 2px solid grey;
 }
 
+.product-photo {
+  display: none;
+}
 
 /* SHOP MENS */
 
 #shop-mens-main {
-display: flex;
-justify-content: space-between;
-margin: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
 }
 
 #list-of-products {
@@ -221,14 +251,13 @@ margin: 100px;
 }
 
 #list-of-products img {
-  width: 20vw
+  width: 20vw;
 }
 
 .product-description {
   display: flex;
   justify-content: space-between;
 }
-
 
 /* PRODUCT PAGE */
 
@@ -255,24 +284,27 @@ margin: 100px;
   background-position: center;
 }
 
-
- #thank-you-card {
-  background: linear-gradient(90deg, rgba(17,86,103,0.7105217086834734) 0%, rgba(10,54,65,1) 71%);
+#thank-you-card {
+  background: linear-gradient(
+    90deg,
+    rgba(17, 86, 103, 0.7105217086834734) 0%,
+    rgba(10, 54, 65, 1) 71%
+  );
   width: 60vw;
 
   margin: 0 auto;
   margin-top: 100px;
   text-align: center;
-  color: #E1E1E1; 
-  -webkit-box-shadow: 5px 5px 18px 5px rgba(0,0,0,0.44); 
-box-shadow: 5px 5px 18px 5px rgba(0,0,0,0.44);
-z-index: 1;
+  color: #e1e1e1;
+  -webkit-box-shadow: 5px 5px 18px 5px rgba(0, 0, 0, 0.44);
+  box-shadow: 5px 5px 18px 5px rgba(0, 0, 0, 0.44);
+  z-index: 1;
 }
 
 #thank-you-card-content {
   padding-top: 8px;
   padding-bottom: 50px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 100;
 }
 #thank-you-card-content h1 {
@@ -281,9 +313,9 @@ z-index: 1;
 }
 
 #thank-you-card-content h2 {
-color: #aaa6a6;
-font-size: 2rem;
-margin-bottom: 80px;
+  color: #aaa6a6;
+  font-size: 2rem;
+  margin-bottom: 80px;
 }
 #thank-you-card-content h3 {
   font-size: 1rem;
@@ -306,10 +338,8 @@ margin-bottom: 80px;
     padding-left: 0;
     text-align: center;
     font-size: 0.8rem;
-    
   }
 }
-
 
 @media screen and (max-width: 500px) {
   #check:checked ~ #nav-bar-links {
@@ -328,10 +358,5 @@ margin-bottom: 80px;
 
   #nav-bar-links a {
     color: #0a3641;
-    
-    
-    
   }
-
- 
 }
