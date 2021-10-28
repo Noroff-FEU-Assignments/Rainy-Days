@@ -61,8 +61,6 @@
   height: 20px;
   margin-right: 20px;
 }
-
-/* ------------------------------------ CONTACT US PAGE ------------------------------------ */
 * {
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
@@ -82,31 +80,59 @@ body {
   margin: 0;
 }
 
-#contact-main-content h3 {
-  font-size: 0.5rem;
-}
-
-#contact-main-content-wrapper {
-  background-color: #115667;
-  box-shadow: 6px 4px 23px -4px rgba(0, 0, 0, 0.55);
-  display: flex;
-  justify-content: space-evenly;
-  width: 100vw;
-  height: 100vh;
-  margin: 0 auto;
-  margin-top: 40px;
-  padding: 50px;
-}
+/* ------------------------------------ CONTACT US PAGE ------------------------------------ */
 
 #contact-main-content {
-  color: #efefef;
-  padding: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#faq-links ul {
+background-color: #115667;
+padding: 0;
+}
+
+#faq-links ul li  {
+  list-style-type: none;
+  padding: 10px;
+  
+}
+
+#faq-links ul li a {
+  text-decoration: none;
+  color: #e1e1e1;
+  
+}
+
+#faq-links ul li:hover {
+  background-color: #0a3641;
+  transition: 0.5s;
+}
+
+#contact-form {
+  width: 90%;
 }
 
 #contact-form form {
+  
   display: flex;
   flex-direction: column;
 }
+
+#contact-form input {
+  height: 50px;
+  margin-bottom: 15px;
+  border: none;
+  padding: 10px;
+}
+
+#contact-form input textarea {
+  height: 100px;
+}
+
 
 /* ------- ABOUT US PAGE ------- */
 
@@ -176,9 +202,6 @@ h3 {
   width: 90%;
   height: 50px;
   margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-
 }
 
 #date-and-cvv2 {
@@ -202,6 +225,8 @@ h3 {
   color: #f9f9f9;
   padding: 20px;
   text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
 }
 
 
