@@ -1,8 +1,43 @@
+:root {
+  --rd-dark-green: #0a3641;
+  --rd-light-green: #115667;
+  --rd-yellow: #ac7b2c;
+  --heading-white: #f9f9f9;
+  --body-text-white: #e1e1e1;
+  --subheading-grey: #aaa6a6;
+  --background-grey: #e2e2e2;
+}
+
+p {
+  color: var(--body-text-white);
+}
+
+h1 {
+  color: var(--heading-white);
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 0.2rem;
+  
+}
+
+h2 {
+  color: var(--subheading-grey);
+}
+
+.button {
+  background-color: var(--rd-light-green);
+  color: var(--heading-white);
+}
+
+.button:hover {
+  background-color: var(--rd-dark-green);
+  transition: 0.3s;
+}
+
 /* NAVIGATION BAR */
 
 #upper-nav-bar {
-  background-color: #0a3641;
-  color: #f3f3f3;
+  background-color: var(--rd-dark-green);
+  color: var(--heading-white);
   display: flex;
   justify-content: flex-end;
   width: 100vw;
@@ -23,7 +58,7 @@
 }
 
 #main-nav-bar {
-  background-color: #115667;
+  background-color: var(--rd-light-green);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,7 +89,8 @@
 }
 
 .nav-bar-btn a:hover {
-  border-bottom: 4px solid #ac7b2c;
+  border-bottom: 4px solid var(--rd-yellow);
+  transition: 0.04s ease-in;
 }
 
 .nav-bar-icon img {
@@ -69,18 +105,17 @@
 
 body {
   margin: 0;
-  background-color: #e2e2e2;
+  background-color: var(--background-grey);
 }
 
+/* ------------------------------------ CONTACT US PAGE ------------------------------------ */
+
 #contact-body {
-  background-color: #efefef;
   background-image: none;
   overflow: hidden;
   box-sizing: border-box;
   margin: 0;
 }
-
-/* ------------------------------------ CONTACT US PAGE ------------------------------------ */
 
 #contact-main-content {
   margin: 0;
@@ -91,24 +126,22 @@ body {
 }
 
 #faq-links ul {
-background-color: #115667;
-padding: 0;
+  background-color: var(--rd-light-green);
+  padding: 0;
 }
 
-#faq-links ul li  {
+#faq-links ul li {
   list-style-type: none;
   padding: 10px;
-  
 }
 
 #faq-links ul li a {
   text-decoration: none;
-  color: #e1e1e1;
-  
+  color: var(--paragraph-wihte);
 }
 
 #faq-links ul li:hover {
-  background-color: #0a3641;
+  background-color: var(--rd-dark-green);
   transition: 0.5s;
 }
 
@@ -117,7 +150,6 @@ padding: 0;
 }
 
 #contact-form form {
-  
   display: flex;
   flex-direction: column;
 }
@@ -132,7 +164,6 @@ padding: 0;
 #contact-form input textarea {
   height: 100px;
 }
-
 
 /* ------- ABOUT US PAGE ------- */
 
@@ -154,7 +185,7 @@ padding: 0;
   display: flex;
   flex-direction: column;
   margin-bottom: 100px;
-  background-color: #115667;
+  background-color: var(--rd-light-green);
   padding: 20px;
 }
 .about-us-card h2,
@@ -165,7 +196,7 @@ h3 {
 }
 
 .about-us-card h2 {
-  border-bottom: 1px solid #aaa6a6;
+  border-bottom: 1px solid var(--subheading-grey);
 }
 
 .about-us-card h3 {
@@ -198,7 +229,7 @@ h3 {
   padding: 20px;
 }
 
-#payment-info input{
+#payment-info input {
   width: 90%;
   height: 50px;
   margin-bottom: 20px;
@@ -212,10 +243,10 @@ h3 {
 
 #date-month-wrapper {
   display: flex;
-  
 }
 
-#date-picker, #month-picker{
+#date-picker,
+#month-picker {
   margin-right: 8px;
   height: 50px;
 }
@@ -228,9 +259,6 @@ h3 {
   text-decoration: none;
   margin-top: 20px;
 }
-
-
-
 
 #order-overview {
   width: 90%;
@@ -311,14 +339,13 @@ h3 {
 
 #thank-you-card {
   background: linear-gradient(
-    90deg,
+    163deg,
     rgba(17, 86, 103, 0.7105217086834734) 0%,
-    rgba(10, 54, 65, 1) 71%
+    rgba(10, 54, 65, 1) 91%
   );
-  width: 60vw;
-
+  width: 90vw;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
   color: #e1e1e1;
   -webkit-box-shadow: 5px 5px 18px 5px rgba(0, 0, 0, 0.44);
@@ -329,17 +356,14 @@ h3 {
 #thank-you-card-content {
   padding-top: 8px;
   padding-bottom: 50px;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 100;
 }
 #thank-you-card-content h1 {
-  font-size: 4rem;
-  margin-bottom: 50px;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
 #thank-you-card-content h2 {
-  color: #aaa6a6;
-  font-size: 2rem;
+  font-size: 1rem;
   margin-bottom: 80px;
 }
 #thank-you-card-content h3 {
@@ -347,6 +371,7 @@ h3 {
 }
 
 @media screen and (max-width: 940px) {
+  /* NAV BAR */
   #nav-bar-links {
     display: none;
   }
@@ -355,7 +380,7 @@ h3 {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 103px; /* calc(høydeAvNavbars) */
+    top: 103px;
     right: 0;
     background-color: #0a3641;
     margin-top: 0;
@@ -367,6 +392,7 @@ h3 {
 }
 
 @media screen and (max-width: 500px) {
+  /* NAV BAR */
   #check:checked ~ #nav-bar-links {
     flex-direction: column;
     height: 100vh;
