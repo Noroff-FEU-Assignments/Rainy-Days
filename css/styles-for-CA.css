@@ -96,7 +96,7 @@ h2 {
 
 .nav-bar-btn a:hover {
   border-bottom: 4px solid var(--rd-yellow);
-  transition: 0.04s ease-in;
+  transition: .04s ease-out
 }
 
 .nav-bar-icon img {
@@ -307,6 +307,8 @@ h3 {
 
 .product-photo {
   display: none;
+  width: 5vw;
+  margin: 10px;
 }
 
 /* SHOP MENS */
@@ -492,20 +494,6 @@ margin-bottom: 100px;
   }
 }
 
-@media screen and (min-width: 720px) {
-  /* CONTACT */
-
-  /* ABOUT */
-
-  /* CHECKOUT */
-
-  /* SHOP MENS/WOMENS */
-
-
-  /* CHECKOUT */
-
-  /* ORDER COMPLETE */
-}
 
 @media screen and (min-width: 720px) {
   /* CONTACT */
@@ -520,6 +508,10 @@ margin-bottom: 100px;
   }
 
   /* CHECKOUT */
+
+  .product-photo {
+    display: revert;
+  }
 
   /* SHOP MENS/WOMENS */
 
@@ -549,3 +541,17 @@ margin-bottom: 100px;
   /* ORDER COMPLETE */
 }
 
+@media screen and (min-width: 720px) {
+  /* CONTACT */
+
+  /* ABOUT */
+
+  /* CHECKOUT */
+
+  /* SHOP MENS/WOMENS */
+
+
+  /* CHECKOUT */
+
+  /* ORDER COMPLETE */
+}
