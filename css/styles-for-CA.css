@@ -31,6 +31,7 @@ h2 {
   text-align: center;
   text-decoration: none;
   margin-top: 20px;
+  border-radius: 2px;
 }
 
 .button:hover {
@@ -187,6 +188,9 @@ body {
   height: 100px;
 }
 
+
+
+
 /* ------- ABOUT US PAGE ------- */
 
 #contact-body {
@@ -310,44 +314,101 @@ h3 {
 
 #shop-mens-main {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  margin: 100px;
+  
 }
 
 #list-of-products {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  column-gap: 50px;
-  row-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 10px;
+  margin: 0 auto;
+}
+
+.product-card {
+  /* background-color: var(--rd-light-green); */
+  /* padding: 20px; */
+  margin-bottom: 20px;
+}
+
+.product-card h2 {
+  color: var(--rd-dark-green);
+  margin: 0;
+  font-size: 1rem;
 }
 
 #list-of-products img {
-  width: 20vw;
+  width: 30vw;
+ 
 }
 
 .product-description {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  width: 20vw;
+  
 }
+
+
 
 /* PRODUCT PAGE */
 
 #main-product {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-#product-images {
-  margin-right: 100px;
+#main-product img  {
+  width: 90vw;
+  margin-top: 50px;
+ 
 }
 
-#product-description {
+#product-desctription {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  width: 90vw;
 }
-#small-product-photos {
-  display: flex;
+
+#product-desctription h1 {
+  color: var(--rd-dark-green);
+  margin-bottom: 0;
 }
+
+#product-desctription h2, h3 {
+  color: var(--rd-light-green);
+  font-size: 1rem;
+}
+
+#product-desctription p {
+  margin-top: 0;
+  font-size: 0.9rem;
+}
+
+
+#size-selector {
+  width: 90vw;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.size-selector-button {
+  padding: 20px;
+  text-align: center;
+  background-color: var(--heading-white);
+  color: var(--rd-dark-green);
+  text-decoration: none;
+  
+}
+
+#product-desctription .button {
+margin-bottom: 100px;
+}
+
 
 /* ORDER COMPLETE */
 
