@@ -214,6 +214,10 @@ body {
   background-color: var(--rd-light-green);
   padding: 20px;
 }
+
+.about-us-card img {
+  margin-right: 20px;
+}
 .about-us-card h2,
 h3 {
   margin-top: 5px;
@@ -542,6 +546,45 @@ margin-bottom: 100px;
   #shop-mens-main {
     flex-direction: row;
   }
+
+#filter-wrapper {
+  width: 20vw;
+  margin: 20px;
+}
+
+#filter-wrapper label {
+  background-color: var(--rd-dark-green);
+  color: var(--heading-white);
+}
+
+#filter {
+  background-color: var(--rd-dark-green);
+  padding: 20px;
+  padding-left: 0;
+}
+
+#filter ul {
+  padding-left: 10px;
+}
+
+#filter li {
+  list-style-type: none;
+  color: var(--body-text-white);
+  padding: 10px;
+  padding-left: 0;
+}
+
+  #filter {
+    display: none;
+  }
+
+  #open-filters:checked ~ #filter {
+    display: block;
+  }
+  #open-filters {
+    display: none;
+  }
+
   #list-of-products {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -578,12 +621,30 @@ margin-bottom: 100px;
   /* ORDER COMPLETE */
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 940px) {
   /* CONTACT */
 
   /* ABOUT */
 
   /* CHECKOUT */
+  
+  #checkout-main {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+
+
+  #payment-info {
+    width: 40%;
+    margin-left: 30px;
+    
+  }
+
+  #order-overview {
+    width: 60%;
+    margin: 30px;
+  }
 
   /* SHOP MENS/WOMENS */
 
