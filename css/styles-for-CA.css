@@ -450,6 +450,7 @@ margin-bottom: 100px;
 }
 #thank-you-card-content h3 {
   font-size: 1rem;
+  color: var(--heading-white);
 }
 
 @media screen and (max-width: 940px) {
@@ -513,6 +514,29 @@ margin-bottom: 100px;
     display: revert;
   }
 
+  /* CHECKOUT SUCCESS */
+
+  #thank-you-card {
+    width: 70vw;
+    height: 70vh;
+  }
+
+  #thank-you-card-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  #thank-you-card-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 80px;
+  }
+  #thank-you-card-content h3 {
+    font-size: 1rem;
+    color: var(--heading-white);
+  }
+
+
+
   /* SHOP MENS/WOMENS */
 
   #shop-mens-main {
@@ -530,12 +554,25 @@ margin-bottom: 100px;
   }
 
   
-
   .product-description {
     flex-direction: row;
   }
   
+  /* PRODUCT */
+  #main-product {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
 
+  #main-product img {
+    width: 30%;
+    margin-top: 20px;
+  }
+
+  #product-desctription {
+    width: 50%;
+  }
   /* CHECKOUT */
 
   /* ORDER COMPLETE */
