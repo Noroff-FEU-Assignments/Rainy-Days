@@ -398,7 +398,6 @@ h3 {
 
 
 #size-selector {
-  width: 90vw;
   margin-bottom: 50px;
   margin-top: 50px;
 }
@@ -617,6 +616,22 @@ margin-bottom: 100px;
     width: 50%;
   }
   /* CHECKOUT */
+
+  #contact-main-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  #faq-links{
+    width: 40%;
+    margin: 50px
+  }
+  #contact-form {
+    width: 60%;
+    margin: 50px;
+  }
+
+
+  
 
   /* ORDER COMPLETE */
 }
