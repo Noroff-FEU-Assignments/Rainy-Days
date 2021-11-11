@@ -217,6 +217,7 @@ body {
 
 .about-us-card img {
   margin-right: 20px;
+  width: 70vw;
 }
 .about-us-card h2,
 h3 {
@@ -239,9 +240,7 @@ h3 {
   font-size: 0.8rem;
   color: #e1e1e1;
 }
-.about-us-card img {
-  width: 70vw;
-}
+
 
 /* CHECKOUT PAGE */
 
@@ -280,11 +279,12 @@ h3 {
   height: 50px;
 }
 
+
 #order-btn {
   background-color: #0a3641;
   color: #f9f9f9;
-  
 }
+
 
 #order-overview {
   width: 90%;
@@ -394,19 +394,23 @@ h3 {
 #product-desctription p {
   margin-top: 0;
   font-size: 0.9rem;
+  color: #0a3641;
 }
 
 
 #size-selector {
   margin-bottom: 50px;
   margin-top: 50px;
+  text-align: center;
 }
 .size-selector-button {
-  padding: 20px;
+  font-size: 3vw;
+  padding: 12px;
   text-align: center;
   background-color: var(--heading-white);
   color: var(--rd-dark-green);
   text-decoration: none;
+  margin-right: 2px;
   
 }
 
@@ -615,6 +619,15 @@ margin-bottom: 100px;
   #product-desctription {
     width: 50%;
   }
+
+
+ 
+  .size-selector-button {
+    font-size: 1rem;
+    margin-right: 5px;
+    
+  }
+
   /* CHECKOUT */
 
   #contact-main-content {
