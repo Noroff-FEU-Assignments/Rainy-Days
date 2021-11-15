@@ -301,7 +301,7 @@ h3 {
   font-size: 0.7rem;
 }
 
-#order-line {
+.order-line {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
