@@ -114,6 +114,46 @@ body {
   background-color: var(--background-grey);
 }
 
+
+/* INDEX */
+
+#index-body {
+  background-image: url(/images/background-img-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#index-main {
+  margin-top: 80px;
+}
+
+#index-main h1 {
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+#index-main h2 {
+font-size: 1rem;
+text-align: center;
+padding: 10px;
+color: var(--rd-light-green);
+}
+
+#main-buttons {
+  text-align: center;
+}
+
+#main-buttons a {
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+#main-buttons a:first-child {
+  margin-right: 30px;
+}
+
 /* ------------------------------------ CONTACT US PAGE ------------------------------------ */
 
 #contact-body {
@@ -542,6 +582,26 @@ margin-bottom: 100px;
   #nav-bar-links a {
     color: #0a3641;
   }
+
+}
+
+@media screen and (min-width: 500px) {
+
+  #index-body {
+    background-image: url(/images/background-img-tablet.jpg);
+    
+  }
+
+  #index-main h1 {
+    font-size: 3rem;
+    
+  }
+  
+  #index-main h2 {
+  font-size: 1.2rem;
+  
+  }
+  
 }
 
 
@@ -696,4 +756,10 @@ margin-bottom: 100px;
   /* CHECKOUT */
 
   /* ORDER COMPLETE */
+}
+
+@media screen and (min-width: 1200px) {
+  #index-body {
+    background-image: url(/images/background-img-desktop.jpg);
+  }
 }
